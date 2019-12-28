@@ -11,8 +11,8 @@ Add the following text to `.ssh/config` (.ssh should be found in the root of you
 test -f ~/.bashrc && . ~/.bashrc`
 
 ### Now, add the following text to `.bashrc`, which should be found in your root user home folder:
-`
-# Start SSH Agent
+
+`Start SSH Agent
 #----------------------------
 
 SSH_ENV="$HOME/.ssh/environment"
@@ -39,5 +39,5 @@ if [ -f "${SSH_ENV}" ]; then
   }
 else
   start_ssh_agent;
-fi
-`
+fi`
+
