@@ -29,6 +29,7 @@ function AutoColorEvents() {
   }
 
 }
-
-//Valid event colors are at https://developers.google.com/apps-script/reference/calendar/event-color
 ```
+
+### Valid event colors are at https://developers.google.com/apps-script/reference/calendar/event-color
+
