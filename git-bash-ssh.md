@@ -1,4 +1,4 @@
-### Configure SSH for Git Hosting Server
+### Configure GIT Bash for SSH
 Add the following text to `.ssh/config` (.ssh should be found in the root of your user home folder):
 
 ```
