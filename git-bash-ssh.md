@@ -4,13 +4,15 @@ Add the following text to `.ssh/config` (.ssh should be found in the root of you
 ```
 Host github.com
 Hostname github.com
-IdentityFile ~/.ssh/id_rsa```
+IdentityFile ~/.ssh/id_rsa
+```
 
 Ensure that following lines are added to `.bash_profile`, which should be found in your root user home folder:
 
 ```
 test -f ~/.profile && . ~/.profile
-test -f ~/.bashrc && . ~/.bashrc```
+test -f ~/.bashrc && . ~/.bashrc
+```
 
 Now, add the following text to `.bashrc`, which should be found in your root user home folder:
 
